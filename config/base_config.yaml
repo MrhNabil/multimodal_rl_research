@@ -1,0 +1,94 @@
+# Base configuration for multimodal RL research
+# All experiments inherit from this config
+
+# Model settings
+model:
+  vision:
+    name: "openai/clip-vit-base-patch32"  # CLIP model name
+    embedding_dim: 512                     # CLIP embedding dimension
+    freeze: true                           # Keep CLIP frozen
+  
+  reasoning:
+    name: "t5-small"                       # T5 model name
+    max_length: 32                         # Maximum answer length
+    embedding_dim: 512                     # T5 embedding dimension
+  
+  projection:
+    input_dim: 512                         # CLIP output dimension
+    output_dim: 512                        # T5 input dimension
+    hidden_dim: 256                        # Optional hidden layer
+    use_hidden: false                      # Whether to use hidden layer
+
+# Dataset settings
+data:
+  train_size: 5000                         # Number of training samples
+  val_size: 1000                           # Number of validation samples
+  test_size: 1000                          # Number of test samples
+  image_size: 224                          # Image resolution (CLIP default)
+  
+  # Object properties
+  colors: ["red", "blue", "green", "yellow"]
+  shapes: ["cube", "sphere", "cylinder"]
+  sizes: ["small", "medium", "large", "huge"]
+  positions: ["left", "center", "right"]
+  
+  # Question types
+  question_types:
+    - "color"      # "What color is the [shape]?"
+    - "shape"      # "What shape is the [color] object?"
+    - "count"      # "How many [color] objects are there?"
+    - "spatial"    # "What is to the [direction] of the [shape]?"
+
+# Training settings
+training:
+  method: "rl"                             # "frozen", "supervised", or "rl"
+  batch_size: 32                           # Batch size
+  num_epochs: 10                           # Number of epochs
+  max_steps: 5000                          # Max training steps (overrides epochs)
+  eval_every: 100                          # Evaluate every N steps
+  save_every: 500                          # Save checkpoint every N steps
+  
+  # Optimizer settings
+  optimizer:
+    name: "adamw"                          # Optimizer name
+    learning_rate: 1e-4                    # Learning rate
+    weight_decay: 0.01                     # Weight decay
+  
+  # Learning rate scheduler
+  scheduler:
+    name: "linear"                         # "linear", "cosine", or "constant"
+    warmup_steps: 100                      # Warmup steps
+
+# REINFORCE settings (only used if training.method == "rl")
+reinforce:
+  reward_type: "exact_match"               # Reward function
+  baseline_type: "moving_avg"              # Variance reduction baseline
+  baseline_decay: 0.99                     # Moving average decay
+  temperature: 1.0                         # Sampling temperature
+  entropy_coef: 0.01                       # Entropy regularization
+  length_penalty: 0.0                      # Penalty per extra token
+  max_grad_norm: 1.0                       # Gradient clipping
+
+# Evaluation settings
+evaluation:
+  metrics:
+    - "accuracy"                           # Exact match accuracy
+    - "per_type_accuracy"                  # Accuracy per question type
+    - "skill_retention"                    # CLIP embedding quality
+    - "generalization"                     # Unseen combination accuracy
+
+# Logging settings
+logging:
+  log_dir: "experiments/results"           # Output directory
+  log_format: "csv"                        # "csv" or "json"
+  log_every: 10                            # Log every N steps
+  save_samples: true                       # Save sample predictions
+  verbose: true                            # Print to console
+
+# Reproducibility
+seed: 42                                   # Random seed
+deterministic: true                        # Deterministic operations
+
+# Device settings
+device: "auto"                              # Auto-detect GPU/CPU
+num_workers: 0                             # DataLoader workers (0 for CPU)

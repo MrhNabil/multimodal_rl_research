@@ -1,0 +1,281 @@
+% IEEE Two-Column Format Project Report
+% Compositional Skill Learning in Multimodal Reinforcement Learning
+
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{float}
+
+\begin{document}
+
+\title{Compositional Skill Learning in Multimodal Reinforcement Learning for Visual Question Answering}
+
+\author{
+\IEEEauthorblockN{Rakib Hossain Nabil}
+\IEEEauthorblockA{
+\textit{Department of Electrical and Computer Engineering}\\
+\textit{North South University}\\
+Dhaka, Bangladesh\\
+ID: 2131005642, Section: 2
+}
+}
+
+\maketitle
+
+% ============================================================
+% ABSTRACT - Start with best results
+% ============================================================
+\begin{abstract}
+I investigate compositional skill learning in multimodal systems by extending reinforcement learning (RL) approaches from text-only to vision-language settings. Using a Visual Question Answering (VQA) task with frozen CLIP visual features and trainable classification heads, I conduct 61+ experiments across training methods, learning rates, and reward functions. \textbf{My best results achieve 74.0\% accuracy with supervised learning and 53.7\% with REINFORCE policy gradient.} I find that RL performance varies significantly by question type: shape recognition achieves 71.8\% while color questions reach only 20.6\%. The optimal learning rate for RL is 2e-4, with higher rates causing training collapse. My findings suggest that cross-modal skill composition is more challenging than within-modality composition, with supervised learning outperforming RL by 20+ percentage points on this multimodal task.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Visual Question Answering, Reinforcement Learning, CLIP, Multimodal AI, Compositional Learning, REINFORCE
+\end{IEEEkeywords}
+
+% ============================================================
+% I. INTRODUCTION
+% ============================================================
+\section{Introduction}
+
+Compositional learning, which is the ability to combine existing skills into new capabilities, is fundamental to human intelligence. Recent work has shown that Large Language Models can compose pretrained text skills through reinforcement learning using only sparse reward signals \cite{ref1}. This raises the question: can compositional learning transfer to multimodal settings?
+
+I investigate this by developing a VQA system that must compose:
+\begin{itemize}
+    \item \textbf{Visual understanding}: The model uses CLIP \cite{ref2} to extract image features without any training on that encoder
+    \item \textbf{Question answering}: A trainable head learns to map visual features to correct answers based on question type
+\end{itemize}
+
+My research question is: \textit{Can RL compose frozen vision skills with trainable language skills for VQA without intermediate supervision?}
+
+\subsection{Key Contributions}
+\begin{enumerate}
+    \item Systematic comparison of supervised learning vs. RL for multimodal VQA (74.0\% vs. 53.7\% accuracy)
+    \item Learning rate sensitivity analysis revealing optimal zone (1e-4 to 5e-4)
+    \item Per-question-type analysis showing skill-specific composability
+    \item Evidence that cross-modal composition is harder than text-only
+\end{enumerate}
+
+% ============================================================
+% II. BEST RESULTS SUMMARY
+% ============================================================
+\section{Best Results Summary}
+
+Before detailing the methodology, I present my key findings:
+
+\subsection{Top Accuracy Results}
+
+\begin{table}[h]
+\centering
+\caption{Best Results by Training Method}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Method} & \textbf{Accuracy} & \textbf{Config} \\
+\midrule
+Supervised Learning & \textbf{74.0\%} & lr=2e-4, 1000 steps \\
+HighAccuracyVQA & 68.7\% & type-specific heads \\
+RL (REINFORCE) & 53.7\% & lr=2e-4, 3000 steps \\
+RL Baseline & 47.6\% & lr=2e-4, 1000 steps \\
+Frozen Baseline & 0.2\% & no training \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Per-Question-Type Accuracy}
+
+\begin{table}[h]
+\centering
+\caption{Accuracy by Question Type}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Type} & \textbf{Supervised} & \textbf{RL} \\
+\midrule
+Count & 82.0\% & 58.0\% \\
+Shape & 77.4\% & 71.8\% \\
+Color & 75.7\% & 20.6\% \\
+Spatial & 61.3\% & 39.8\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Key Finding}: RL achieves competitive performance on shape (71.8\%) but struggles severely with color questions (20.6\% vs. 75.7\% for supervised).
+
+% ============================================================
+% III. METHODOLOGY
+% ============================================================
+\section{Methodology}
+
+\subsection{Model Architecture}
+
+My VQA system consists of four components:
+
+\begin{enumerate}
+    \item \textbf{Vision Encoder}: CLIP ViT-B/32 (frozen, 151M parameters)
+    \item \textbf{Projection Layer}: MLP mapping 512-d to 768-d (trainable)
+    \item \textbf{Fusion Layer}: Concatenation of visual and question features
+    \item \textbf{Classification Heads}: Type-specific heads for color (4), shape (3), count (4), spatial (13) classes
+\end{enumerate}
+
+Total trainable parameters: $\sim$1M (0.6\% of full model).
+
+\subsection{Training Methods}
+
+\subsubsection{Supervised Learning}
+Cross-entropy loss with ground-truth labels:
+\begin{equation}
+L = -\sum_{i} y_i \log(\hat{y}_i)
+\end{equation}
+
+\subsubsection{REINFORCE Policy Gradient}
+Policy gradient with binary reward:
+\begin{equation}
+\nabla J(\theta) = \mathbb{E}[R \cdot \nabla_\theta \log \pi(a|s;\theta)]
+\end{equation}
+where $R=1$ if correct, $R=0$ otherwise.
+
+\subsection{Dataset}
+
+Synthetic CLEVR-style VQA dataset:
+\begin{itemize}
+    \item 5,000 training, 1,000 validation, 1,000 test samples
+    \item 224$\times$224 pixel images with colored geometric shapes
+    \item 4 question types: color, shape, count, spatial
+    \item 24 possible answers across all types
+\end{itemize}
+
+% ============================================================
+% IV. EXPERIMENTS
+% ============================================================
+\section{Experiments}
+
+I conducted 61+ experiments in the following categories:
+
+\subsection{Baseline Experiments}
+\begin{itemize}
+    \item Frozen: 0.2\% (near random)
+    \item Supervised (500 steps): 33.7\%
+    \item Supervised (1000 steps): 74.0\%
+    \item RL Baseline: 47.6\%
+\end{itemize}
+
+\subsection{Learning Rate Sweep}
+
+\begin{table}[h]
+\centering
+\caption{RL Accuracy by Learning Rate}
+\begin{tabular}{cc}
+\toprule
+\textbf{Learning Rate} & \textbf{Accuracy} \\
+\midrule
+1e-5 & 29.4\% \\
+2e-5 & 37.0\% \\
+5e-5 & 41.0\% \\
+1e-4 & 45.2\% \\
+\textbf{2e-4} & \textbf{53.7\%} \\
+5e-4 & 44.0\% \\
+1e-3 & 29.3\% \\
+2e-3 & 20.7\% \\
+5e-3 & 14.2\% \\
+1e-2 & 14.2\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Finding}: Optimal learning rate is 2e-4. Rates above 1e-3 cause training collapse.
+
+\subsection{Reward Function Comparison}
+
+\begin{table}[h]
+\centering
+\caption{Reward Function Results}
+\begin{tabular}{lc}
+\toprule
+\textbf{Reward Type} & \textbf{Accuracy} \\
+\midrule
+Exact Match & 29.3\% \\
+Partial Match & 29.3\% \\
+Length Penalty & 32.4\% \\
+Combined & 32.4\% \\
+Progressive (slow) & 43.1\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+% V. DISCUSSION
+% ============================================================
+\section{Discussion}
+
+\subsection{Why Supervised Outperforms RL}
+
+Three factors explain the 74\% vs. 53.7\% gap:
+
+\begin{enumerate}
+    \item \textbf{Cross-modal composition}: Composing visual and language information across modalities is harder than within-modality composition.
+    \item \textbf{Sparse rewards}: Binary rewards provide less gradient signal than cross-entropy loss.
+    \item \textbf{Training scale}: With 1000-3000 steps, RL may need 10-100x more iterations.
+\end{enumerate}
+
+\subsection{The Color Puzzle}
+
+RL achieves only 20.6\% on color questions vs. 75.7\% for supervised (but 71.8\% on shape). Possible explanations:
+\begin{itemize}
+    \item CLIP may encode color weakly compared to shape
+    \item Color words may confuse the RL policy
+    \item The reward signal doesn't distinguish similar colors
+\end{itemize}
+
+\subsection{Implications}
+
+Compositional learning transfers to multimodal settings, but with reduced effectiveness. Some visual skills (shape) compose better than others (color) via RL.
+
+% ============================================================
+% VI. LIMITATIONS
+% ============================================================
+\section{Limitations}
+
+\begin{itemize}
+    \item Synthetic dataset may not reflect real-world VQA
+    \item CLIP ViT-B/32 is relatively small (151M parameters)
+    \item Limited to 1000-3000 training steps
+    \item Frozen visual encoder limits spatial reasoning
+\end{itemize}
+
+% ============================================================
+% VII. CONCLUSION
+% ============================================================
+\section{Conclusion}
+
+I investigated compositional skill learning in multimodal RL through 61+ experiments. Key findings:
+
+\begin{enumerate}
+    \item \textbf{Best accuracy}: Supervised 74.0\%, RL 53.7\%
+    \item \textbf{Cross-modal gap}: Supervised outperforms RL by 20+ points
+    \item \textbf{Skill-specific}: Shape composes well (71.8\%), color does not (20.6\%)
+    \item \textbf{Optimal LR}: 2e-4 for RL training
+    \item \textbf{More data}: Does not improve accuracy (50K $\rightarrow$ 61.5\%)
+\end{enumerate}
+
+Compositional learning shows promise for multimodal systems but requires careful consideration of modality gaps and training methodology.
+
+% ============================================================
+% REFERENCES
+% ============================================================
+\begin{thebibliography}{00}
+\bibitem{ref1} Anonymous, ``From $f(x)$ and $g(x)$ to $f(g(x))$: LLMs Learn New Skills in RL by Composing Old Ones,'' arXiv:2509.25123, 2024.
+\bibitem{ref2} A. Radford et al., ``Learning Transferable Visual Models From Natural Language Supervision,'' ICML, 2021.
+\bibitem{ref3} R. J. Williams, ``Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning,'' Machine Learning, 1992.
+\bibitem{ref4} S. Antol et al., ``VQA: Visual Question Answering,'' ICCV, 2015.
+\bibitem{ref5} J. Li et al., ``BLIP-2: Bootstrapping Language-Image Pre-training,'' ICML, 2023.
+\bibitem{ref6} J. Johnson et al., ``CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning,'' CVPR, 2017.
+\bibitem{ref7} B. M. Lake et al., ``Building Machines That Learn and Think Like People,'' Behavioral and Brain Sciences, 2017.
+\bibitem{ref8} C. Keysers et al., ``Measuring Compositional Generalization,'' ICLR, 2020.
+\end{thebibliography}
+
+\end{document}

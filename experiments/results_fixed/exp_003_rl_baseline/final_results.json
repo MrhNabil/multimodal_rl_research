@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_003_rl_baseline",
+  "method": "rl",
+  "accuracy": 0.476,
+  "per_type_accuracy": {
+    "shape": 0.7182539682539683,
+    "color": 0.20647773279352227,
+    "count": 0.5795918367346938,
+    "spatial": 0.3984375
+  },
+  "best_val_accuracy": 0.467,
+  "elapsed_seconds": 354.9177691936493,
+  "max_steps": 1000,
+  "learning_rate": 0.0002,
+  "batch_size": 64,
+  "seed": 42
+}

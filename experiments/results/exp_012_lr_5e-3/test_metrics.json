@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.0,
+  "per_type_accuracy": {
+    "shape": 0.0,
+    "color": 0.0,
+    "count": 0.0,
+    "spatial": 0.0
+  },
+  "token_overlap": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "answer_distribution": {
+    "dummy answer": 20
+  },
+  "skill_retention": null,
+  "num_samples": 20,
+  "evaluation_time": 0.015827178955078125
+}

@@ -1,0 +1,11 @@
+experiment,accuracy,category
+exp_001_frozen,0.0,Baseline
+exp_002_supervised,0.0,Baseline
+exp_003_rl_baseline,0.0,Other
+exp_004_lr_1e-5,0.0,Learning Rate
+exp_005_lr_2e-5,0.0,Learning Rate
+exp_006_lr_5e-5,0.0,Learning Rate
+exp_007_lr_1e-4,0.0,Learning Rate
+exp_008_lr_2e-4,0.0,Learning Rate
+exp_009_lr_5e-4,0.0,Learning Rate
+exp_010_lr_1e-3,0.0,Learning Rate

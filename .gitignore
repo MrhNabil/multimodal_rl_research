@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (too large for git)
+data/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Pretrained models (downloaded at runtime)
+models/pretrained/
+models/checkpoints/
+*.ckpt
+experiments/50k_training/
+experiments/ultra_high_accuracy/
+experiments/extended_supervised/
+experiments/high_accuracy/
+experiments/grid_results/
+
+# Cache
+*.cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large model files
+models/checkpoints/
+models/*.pt
+models/*.pth
+
+# Keep structure
+!experiments/.gitkeep
+!data/.gitkeep
+
+# Config files that may contain secrets
+config/local*.yaml

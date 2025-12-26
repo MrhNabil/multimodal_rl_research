@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_022_reward_progressive_fast",
+  "method": "rl",
+  "accuracy": 0.324,
+  "per_type_accuracy": {
+    "shape": 0.3333333333333333,
+    "color": 0.30364372469635625,
+    "count": 0.5795918367346938,
+    "spatial": 0.08984375
+  },
+  "best_val_accuracy": 0.331,
+  "elapsed_seconds": 204.93319725990295,
+  "max_steps": 500,
+  "learning_rate": 0.0002,
+  "batch_size": 64,
+  "seed": 42
+}

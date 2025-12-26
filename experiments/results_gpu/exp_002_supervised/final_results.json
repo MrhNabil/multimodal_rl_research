@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_002_supervised",
+  "method": "supervised",
+  "accuracy": 0.337,
+  "per_type_accuracy": {
+    "shape": 0.4007936507936508,
+    "color": 0.2631578947368421,
+    "count": 0.5795918367346938,
+    "spatial": 0.11328125
+  },
+  "best_val_accuracy": 0.339,
+  "elapsed_seconds": 109.03090453147888,
+  "max_steps": 500,
+  "learning_rate": 0.0001,
+  "batch_size": 32,
+  "seed": 42
+}

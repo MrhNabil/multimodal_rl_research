@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_024_qtype_color_only",
+  "method": "rl",
+  "accuracy": 0.431,
+  "per_type_accuracy": {
+    "shape": 0.5396825396825397,
+    "color": 0.2631578947368421,
+    "count": 0.5795918367346938,
+    "spatial": 0.34375
+  },
+  "best_val_accuracy": 0.431,
+  "elapsed_seconds": 308.209730386734,
+  "max_steps": 500,
+  "learning_rate": 0.0002,
+  "batch_size": 64,
+  "seed": 42
+}

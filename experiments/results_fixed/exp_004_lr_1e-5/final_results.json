@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_004_lr_1e-5",
+  "method": "rl",
+  "accuracy": 0.294,
+  "per_type_accuracy": {
+    "shape": 0.0,
+    "color": 0.25101214574898784,
+    "count": 0.5795918367346938,
+    "spatial": 0.3515625
+  },
+  "best_val_accuracy": 0.352,
+  "elapsed_seconds": 430.7385377883911,
+  "max_steps": 1000,
+  "learning_rate": 1e-05,
+  "batch_size": 64,
+  "seed": 42
+}

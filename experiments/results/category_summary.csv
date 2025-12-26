@@ -1,0 +1,12 @@
+,accuracy,accuracy,accuracy,success
+,mean,std,max,sum
+category,,,,
+Baseline,0.0,0.0,0.0,1
+Batch Size,0.0,0.0,0.0,5
+Entropy Coef,0.0,0.0,0.0,5
+Learning Rate,0.0,0.0,0.0,10
+Other,0.0,,0.0,1
+Question Type,0.0,0.0,0.0,10
+Reward Function,0.0,0.0,0.0,5
+Temperature,0.0,0.0,0.0,8
+Variance Reduction,0.0,0.0,0.0,10

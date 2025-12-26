@@ -1,0 +1,14 @@
+{
+  "experiment_name": "exp_030_qtype_shape_count",
+  "method": "rl",
+  "accuracy": 0.517,
+  "best_val_accuracy": 0.499,
+  "per_type": {
+    "shape": 0.5992063492063492,
+    "color": 0.4574898785425101,
+    "count": 0.5795918367346938,
+    "spatial": 0.43359375
+  },
+  "elapsed_seconds": 245.11651062965393,
+  "model": "HighAccuracyVQA"
+}

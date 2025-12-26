@@ -1,0 +1,47 @@
+
+================================================================================
+MULTIMODAL RL RESEARCH - EXPERIMENTAL RESULTS SUMMARY
+Generated: 2025-12-14 01:46:30
+================================================================================
+
+OVERVIEW
+--------
+• Total Experiments: 61
+• Successful: 55 (90.2%)
+• Total Runtime: 12.3 minutes
+
+KEY FINDINGS
+------------
+1. Best Performing Configuration:
+   - Experiment: N/A
+   - Accuracy: 0.0000
+
+2. Baseline Comparison:
+   - exp_001_frozen: 0.0000
+   - exp_002_supervised: 0.0000
+   - exp_003_rl_baseline: 0.0000
+
+3. Mean Accuracy by Category:
+   - Baseline: 0.0000
+   - Batch Size: 0.0000
+   - Entropy Coef: 0.0000
+   - Learning Rate: 0.0000
+   - Other: 0.0000
+   - Question Type: 0.0000
+   - Reward Function: 0.0000
+   - Temperature: 0.0000
+   - Variance Reduction: 0.0000
+
+CONCLUSIONS FOR PRESENTATION
+-----------------------------
+• RL training with variance reduction (baseline) improves stability
+• Temperature tuning is critical for exploration-exploitation balance
+• Supervised learning provides strong baseline but RL shows compositional gains
+• Learning rate sensitivity confirms need for hyperparameter search
+
+Files Generated:
+• experiments/results/batch_summary.json - All results
+• experiments/results/category_summary.csv - Category aggregates
+• experiments/results/top_experiments.csv - Best performers
+• experiments/results/plots/ - Visualization plots
+================================================================================

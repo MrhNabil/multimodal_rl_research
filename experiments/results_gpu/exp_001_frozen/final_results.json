@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_001_frozen",
+  "method": "frozen",
+  "accuracy": 0.132,
+  "per_type_accuracy": {
+    "shape": 0.1984126984126984,
+    "color": 0.11336032388663968,
+    "count": 0.1673469387755102,
+    "spatial": 0.05078125
+  },
+  "best_val_accuracy": 0.0,
+  "elapsed_seconds": 4.01624059677124,
+  "max_steps": 500,
+  "learning_rate": 0.0001,
+  "batch_size": 32,
+  "seed": 42
+}

@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_015_reward_partial_match",
+  "method": "rl",
+  "accuracy": 0.293,
+  "per_type_accuracy": {
+    "shape": 0.30952380952380953,
+    "color": 0.20647773279352227,
+    "count": 0.5795918367346938,
+    "spatial": 0.0859375
+  },
+  "best_val_accuracy": 0.293,
+  "elapsed_seconds": 974.7807621955872,
+  "max_steps": 3000,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "seed": 42
+}

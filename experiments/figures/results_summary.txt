@@ -1,0 +1,41 @@
+================================================================================
+EXPERIMENT RESULTS SUMMARY
+================================================================================
+
+Total experiments: 29
+Best accuracy: 53.70%
+Best experiment: exp_008_lr_2e-4
+
+--------------------------------------------------------------------------------
+Experiment                               |       Method |   Accuracy
+--------------------------------------------------------------------------------
+exp_008_lr_2e-4                          |           rl |     53.70%
+exp_009_lr_5e-4                          |           rl |     44.00%
+exp_023_reward_progressive_slow          |           rl |     43.10%
+exp_024_qtype_color_only                 |           rl |     43.10%
+exp_025_qtype_shape_only                 |           rl |     43.10%
+exp_026_qtype_count_only                 |           rl |     43.10%
+exp_027_qtype_spatial_only               |           rl |     43.10%
+exp_028_qtype_color_shape                |           rl |     43.10%
+exp_029_qtype_color_count                |           rl |     43.10%
+exp_002_supervised                       |   supervised |     33.70%
+exp_006_lr_5e-5                          |           rl |     32.40%
+exp_016_reward_length_penalty            |           rl |     32.40%
+exp_017_reward_combined                  |           rl |     32.40%
+exp_018_reward_progressive               |           rl |     32.40%
+exp_019_reward_exact_strict              |           rl |     32.40%
+exp_020_reward_partial_strict            |           rl |     32.40%
+exp_021_reward_combined_v2               |           rl |     32.40%
+exp_022_reward_progressive_fast          |           rl |     32.40%
+exp_003_rl_baseline                      |           rl |     31.70%
+exp_007_lr_1e-4                          |           rl |     31.70%
+exp_010_lr_1e-3                          |           rl |     29.30%
+exp_014_reward_exact_match               |           rl |     29.30%
+exp_015_reward_partial_match             |           rl |     29.30%
+exp_011_lr_2e-3                          |           rl |     20.70%
+exp_004_lr_1e-5                          |           rl |     18.80%
+exp_005_lr_2e-5                          |           rl |     14.20%
+exp_012_lr_5e-3                          |           rl |     14.20%
+exp_013_lr_1e-2                          |           rl |     14.20%
+exp_001_frozen                           |       frozen |     13.20%
+--------------------------------------------------------------------------------

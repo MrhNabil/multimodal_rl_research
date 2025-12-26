@@ -1,0 +1,7002 @@
+[
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "blue cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "red sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "green cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "green cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "blue cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "yellow sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "yellow sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "yellow sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "green cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "green cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "green cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "blue cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "red sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "blue cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "blue cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "yellow sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "red sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "red sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "green cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "blue cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "red sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "red sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cylinder?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "yellow sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "green sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of green objects?",
+    "prediction": "0",
+    "target": "0",
+    "question_type": "count",
+    "correct": true
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "green cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "green cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The yellow object is what shape?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "green cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "blue sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The green object is what shape?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "blue cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cube?",
+    "prediction": "",
+    "target": "red cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the sphere?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the red objects.",
+    "prediction": "Count the red objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the sphere?",
+    "prediction": "",
+    "target": "green cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the green objects.",
+    "prediction": "Count the green objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What object is left of the cylinder?",
+    "prediction": "",
+    "target": "yellow sphere",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "green cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the blue object?",
+    "prediction": "blue",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the sphere?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The red object is what shape?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "Count the blue objects.",
+    "prediction": "Count the blue objects",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of blue objects?",
+    "prediction": "a",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the number of red objects?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "How many blue objects are there?",
+    "prediction": "",
+    "target": "1",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What is to the left of the cylinder?",
+    "prediction": "a",
+    "target": "red cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "yellow",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cylinder?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many green objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the number of yellow objects?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is to the right of the sphere?",
+    "prediction": "",
+    "target": "yellow cube",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the sphere?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many yellow objects are there?",
+    "prediction": "a",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cube?",
+    "prediction": "color",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the cube?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "yellow cylinder",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "What object is right of the cube?",
+    "prediction": "",
+    "target": "nothing",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What color is the sphere?",
+    "prediction": "sphere",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "How many red objects are there?",
+    "prediction": "",
+    "target": "0",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What shape is the green object?",
+    "prediction": "green",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the yellow object?",
+    "prediction": "yellow",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What color is the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "red",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "What is the color of the cylinder?",
+    "prediction": "color",
+    "target": "blue",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The blue object is what shape?",
+    "prediction": "blue",
+    "target": "sphere",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "The cylinder has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "Count the yellow objects.",
+    "prediction": "Count the yellow objects",
+    "target": "2",
+    "question_type": "count",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The cube has what color?",
+    "prediction": "a",
+    "target": "yellow",
+    "question_type": "color",
+    "correct": false
+  },
+  {
+    "question": "The sphere has what color?",
+    "prediction": "a",
+    "target": "green",
+    "question_type": "spatial",
+    "correct": false
+  },
+  {
+    "question": "What is the shape of the red object?",
+    "prediction": "red",
+    "target": "cube",
+    "question_type": "shape",
+    "correct": false
+  },
+  {
+    "question": "What shape is the red object?",
+    "prediction": "red",
+    "target": "cylinder",
+    "question_type": "shape",
+    "correct": false
+  }
+]

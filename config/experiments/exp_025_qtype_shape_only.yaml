@@ -1,0 +1,22 @@
+# Experiment 025: Qtype Shape Only [FAST MODE: 1000 steps]
+experiment:
+  id: 25
+  name: qtype_shape_only
+seed: 42
+training:
+  method: rl
+  batch_size: 64
+  max_steps: 1000
+  eval_every: 200
+  save_every: 1000
+  optimizer:
+    learning_rate: 0.0002
+reinforce:
+  reward_type: exact_match
+  baseline_type: moving_avg
+  baseline_decay: 0.99
+  temperature: 1.0
+  entropy_coef: 0.01
+data:
+  question_types:
+  - shape

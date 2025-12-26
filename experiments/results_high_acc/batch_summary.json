@@ -1,0 +1,62 @@
+[
+  {
+    "experiment_name": "exp_030_qtype_shape_count",
+    "method": "rl",
+    "accuracy": 0.517,
+    "best_val_accuracy": 0.499,
+    "per_type": {
+      "shape": 0.5992063492063492,
+      "color": 0.4574898785425101,
+      "count": 0.5795918367346938,
+      "spatial": 0.43359375
+    },
+    "elapsed_seconds": 245.11651062965393,
+    "model": "HighAccuracyVQA",
+    "success": true
+  },
+  {
+    "experiment_name": "exp_031_qtype_color_spatial",
+    "method": "rl",
+    "accuracy": 0.517,
+    "best_val_accuracy": 0.499,
+    "per_type": {
+      "shape": 0.5992063492063492,
+      "color": 0.4574898785425101,
+      "count": 0.5795918367346938,
+      "spatial": 0.43359375
+    },
+    "elapsed_seconds": 216.2649266719818,
+    "model": "HighAccuracyVQA",
+    "success": true
+  },
+  {
+    "experiment_name": "exp_032_qtype_no_spatial",
+    "method": "rl",
+    "accuracy": 0.619,
+    "best_val_accuracy": 0.603,
+    "per_type": {
+      "shape": 0.75,
+      "color": 0.6194331983805668,
+      "count": 0.5795918367346938,
+      "spatial": 0.52734375
+    },
+    "elapsed_seconds": 481.2500510215759,
+    "model": "HighAccuracyVQA",
+    "success": true
+  },
+  {
+    "experiment_name": "exp_033_qtype_all_types",
+    "method": "rl",
+    "accuracy": 0.619,
+    "best_val_accuracy": 0.603,
+    "per_type": {
+      "shape": 0.75,
+      "color": 0.6194331983805668,
+      "count": 0.5795918367346938,
+      "spatial": 0.52734375
+    },
+    "elapsed_seconds": 523.6585974693298,
+    "model": "HighAccuracyVQA",
+    "success": true
+  }
+]

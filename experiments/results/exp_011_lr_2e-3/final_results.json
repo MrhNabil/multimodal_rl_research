@@ -1,0 +1,17 @@
+{
+  "experiment_name": "exp_011_lr_2e-3",
+  "timestamp": "2025-12-14T01:35:09.477093",
+  "method": "rl",
+  "accuracy": 0.0,
+  "best_val_accuracy": 0.0,
+  "batch_size": 16,
+  "max_steps": 50,
+  "learning_rate": 0.002,
+  "eval_every": 25,
+  "save_every": 50,
+  "reward_type": "exact_match",
+  "baseline_type": "moving_avg",
+  "temperature": 1.0,
+  "entropy_coef": 0.01,
+  "seed": 42
+}

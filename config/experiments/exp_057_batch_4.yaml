@@ -1,0 +1,19 @@
+# Experiment 057: Batch 4 [FAST MODE: 1000 steps]
+experiment:
+  id: 57
+  name: batch_4
+seed: 42
+training:
+  method: rl
+  batch_size: 4
+  max_steps: 1000
+  eval_every: 200
+  save_every: 1000
+  optimizer:
+    learning_rate: 0.0002
+reinforce:
+  reward_type: exact_match
+  baseline_type: moving_avg
+  baseline_decay: 0.99
+  temperature: 1.0
+  entropy_coef: 0.01

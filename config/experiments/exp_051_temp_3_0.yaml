@@ -1,0 +1,19 @@
+# Experiment 051: Temp 3 0 [FAST MODE: 1000 steps]
+experiment:
+  id: 51
+  name: temp_3.0
+seed: 42
+training:
+  method: rl
+  batch_size: 64
+  max_steps: 1000
+  eval_every: 200
+  save_every: 1000
+  optimizer:
+    learning_rate: 0.0002
+reinforce:
+  reward_type: exact_match
+  baseline_type: moving_avg
+  baseline_decay: 0.99
+  temperature: 3.0
+  entropy_coef: 0.01
