@@ -31,12 +31,12 @@ This repository investigates whether **reinforcement learning can compose frozen
 
 ```
 ┌─────────────┐    ┌──────────────┐    ┌────────────┐    ┌─────────────┐
-│   Image     │───▶│  CLIP ViT    │───▶│ Projection │───▶│  Fusion     │───▶ Answer
+│   Image     │───▶│  CLIP ViT   │───▶│ Projection │───▶│  Fusion    │───▶ Answer
 │  224×224    │    │  (FROZEN)    │    │    MLP     │    │   Layer     │
 └─────────────┘    │   151M       │    │ (trainable)│    └─────────────┘
                    └──────────────┘    └────────────┘          ▲
                                                                │
-                   ┌─────────────────────────────────────────┘
+                   ┌─────────────────────────────────────────  ┘
                    │
               ┌────────────┐
               │  Question  │
@@ -228,7 +228,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Rakib Hossain Nabil**  
 Department of Electrical and Computer Engineering  
 North South University, Dhaka, Bangladesh  
-ID: 2131005642
 
 ---
 
