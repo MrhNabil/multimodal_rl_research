@@ -229,10 +229,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Department of Electrical and Computer Engineering  
 North South University, Dhaka, Bangladesh  
 
----
-
-## 🙏 Acknowledgments
-
-- OpenAI for the CLIP model
-- The authors of the compositional learning paper for inspiration
-- North South University for support
